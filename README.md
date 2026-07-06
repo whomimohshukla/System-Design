@@ -1,13 +1,18 @@
-# System Design Questions
+# System Design Playground
 
-A collection of system design practice questions covering databases, caching,
-messaging, storage, realtime systems, media pipelines, and large-scale product
-features.
+A practical collection of system design notes, interview questions, and small implementation demos for distributed systems, APIs, caching, storage, and realtime products.
 
-Each problem includes a prompt, requirements, design considerations, and a
-prototype-oriented exercise to help turn theory into implementation practice.
+This workspace now includes a hands-on rate-limiting demo under [Rate-limting/server-explaination](Rate-limting/server-explaination) that shows how token-bucket throttling can be implemented with Express, Redis, and MongoDB.
 
-## Questions
+## Featured Demo
+
+- [Rate limiting demo](Rate-limting/server-explaination/README.md)
+  - Express API with MongoDB-backed notes
+  - Redis-backed token-bucket limiter
+  - Separate limits for reads, writes, and deletes
+  - Local development instructions and example requests
+
+## System Design Questions
 
 - [Design Airline Check-in System](system-design-questions/airline-checkin.md)
 - [Design a Blogging Platform](system-design-questions/blogging-platform.md)

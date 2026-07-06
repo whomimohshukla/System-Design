@@ -1,0 +1,26 @@
+{
+  "name": "server-explaination",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "rate-limiting",
+    "express",
+    "redis",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "A small Express demo app that shows token-bucket rate limiting with Redis and MongoDB.",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ioredis": "^5.11.1",
+    "mongoose": "^9.7.3",
+    "redis": "^6.1.0"
+  }
+}
